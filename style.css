@@ -1,0 +1,19 @@
+.separator {
+    margin: 0 12px; /* Adds space on both sides of the pipe */
+}
+navbar {
+    background-color: #1b1b1b;
+}
+
+nav ol.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    content: " > "; 
+    padding: 0 8px;  
+    color:rgb(106, 106, 106);;  
+}
+
+  
+.breadcrumb-item a {
+    text-decoration: none; 
+}
+
+
